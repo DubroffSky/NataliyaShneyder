@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Oceanic Bold";
+    src: url("TRIAL_Oceanic-Bold-BF6487cfe5cfe3d.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,200&display=swap');
+    font-weight: 200; /* Укажите желаемый вес шрифта */
+    font-style: Montserrat Alternates; /* Укажите желаемый стиль шрифта (italic, normal и т. д.) */
+}
+
+.navbar-brand {
+    font-family: "Oceanic Bold", sans-serif;
+}
+
+.navbar-nav a {
+    font-family: "Courier", sans-serif;
+    font-size: 1.1em;
+}
+
+.text-center {
+    font-family: "Oceanic Bold", sans-serif;
+}
+
+.textAbout {
+    font-family: "Baskerville", serif;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #d47f66;
+}
+
+#about {
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+#examples {
+    text-decoration: underline;
+}
+
+#contacts {
+    text-decoration: underline;
+}
+
+.foto{
+    width: 240px;
+    height: 300px;
+}
+
+.color1 {color: #c82b95;}
+.color2 {color: #d47f66;}/**/
+.color3 {color: #d4c068;}
+.color4 {color: #e6e5b9;}
+.color5 {color: #ddeded;} /**/
