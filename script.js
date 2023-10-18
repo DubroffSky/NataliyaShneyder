@@ -1,4 +1,3 @@
-// Функция для плавной прокрутки к якорю
 function scrollToAnchor(anchor) {
     const target = document.querySelector(anchor);
     if (target) {
@@ -8,10 +7,10 @@ function scrollToAnchor(anchor) {
     }
 }
 
-// Добавьте обработчики событий для навигационных ссылок
+//обработчики событий для навигационных ссылок
 document.querySelector('a[href="#about"]').addEventListener('click', function (e) {
-    e.preventDefault(); // Предотвращаем переход по ссылке
-    scrollToAnchor('#about'); // Прокручиваем к якорю #about
+    e.preventDefault();
+    scrollToAnchor('#about');
 });
 
 document.querySelector('a[href="#examples"]').addEventListener('click', function (e) {
