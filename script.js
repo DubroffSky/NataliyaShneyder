@@ -23,3 +23,5 @@ document.querySelector('a[href="#contacts"]').addEventListener('click', function
     e.preventDefault();
     scrollToAnchor('#contacts');
 });
+
+
