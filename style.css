@@ -49,3 +49,9 @@ nav {
     width: 240px;
     height: 300px;
 }
+
+@media (min-width: 721px) {
+    .d-flex.flex-column {
+        margin-top: 5%;
+    }
+}
